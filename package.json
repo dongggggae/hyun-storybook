@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint  --fix",
-    "storybook": "storybook dev -p 6006 -s ./public",
-    "build-storybook": "storybook build -s public",
-    "dev-storybook": "npm-run-all --parallel dev storybook"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "serve": "npm-run-all --parallel dev storybook"
   },
   "dependencies": {
     "next": "14.0.4",
